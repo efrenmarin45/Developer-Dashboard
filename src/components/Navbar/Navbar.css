@@ -1,0 +1,61 @@
+/** Top Navbar **/
+.navbar {
+	display: flex;
+	background-color: #063160;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	color: #91a9c5;
+	font-size: 1.1em;
+}
+
+.navbar ul {
+	display: flex;
+	gap: 7em;
+	margin: 0;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.navbar li {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #91a9c5;
+}
+
+#name-icon {
+	color: #ffffff;
+	font-size: 1.3em;
+	font-family: "Prompt", sans-serif;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.currentView {
+	display: flex;
+	padding: 25px;
+	color: #ffffff;
+	background-color: #3a5b82;
+}
+
+/** Sub Navbar **/
+.subNav {
+	display: flex;
+	background-color: #3a5b82;
+}
+
+.subNav > p {
+	color: #ffffff;
+	font-size: 1.3em;
+	margin-left: 2em;
+}
