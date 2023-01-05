@@ -1,0 +1,13 @@
+.pie-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.2em;
+    padding: 0 1em;
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.pie-container > p {
+    font-size: 2em;
+}
