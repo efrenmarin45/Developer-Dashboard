@@ -1,6 +1,6 @@
 import { React, useRef } from "react";
 import "./NavbarStyles.css";
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 
 function Navbar() {
 	const navRef = useRef();
@@ -16,7 +16,7 @@ function Navbar() {
 				<ul className="navList">
 					<li id='name-icon'>#EfrenMarin</li>
 					<li>
-						<a href='../docs/EfrenMarin Resume.pdf' target='_blank'>
+						<a href='../../docs/EfrenMarin Resume.pdf' target='_blank'>
 							RESUME
 						</a>
 					</li>
