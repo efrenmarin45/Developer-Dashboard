@@ -1,26 +1,46 @@
+:root {
+	--mainColor: #063160;
+}
+
 /** Top Navbar **/
+header {
+	margin: 0;
+	padding: 0;
+}
+
+header .nav-btn {
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	color: white;
+	visibility: visible;
+	opacity: 1;
+}
+
+header .responsive_nav {
+	transform: none;
+}
+
+nav a {
+	font-size: 1.5rem;
+}
+
 .navbar {
 	display: flex;
+	flex-direction: row;
 	background-color: #063160;
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;
 	color: #91a9c5;
-	font-size: 1.1em;
 }
 
 .navbar ul {
 	display: flex;
-	gap: 7em;
+	gap: 4em;
 	margin: 0;
 	justify-content: space-between;
 	align-items: center;
 	list-style: none;
-}
-
-.navbar li {
-	display: flex;
-	height: 100%;
-	align-items: center;
 }
 
 .navbar a {
@@ -38,13 +58,14 @@ a:visited {
 }
 
 a:hover {
-  color: #ffffff;
+	color: #ffffff;
 }
 
 .currentView {
 	display: flex;
-	padding: 25px;
+	padding: 15px;
 	color: #ffffff;
+	font-size: 1.5em;
 	background-color: #3a5b82;
 }
 
@@ -58,4 +79,87 @@ a:hover {
 	color: #ffffff;
 	font-size: 1.3em;
 	margin-left: 2em;
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+} 
+
+@media screen and (max-width: 1400px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--mainColor);
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+
+	header div,
+	nav {
+		display: flex;
+		align-items: center;
+	}
+
+	header .responsive-nav {
+		transform: none;
+	}
+
+	.navbar.nav-close-btn {
+		position: absolute;
+		top: 12rem;
+		right: 2rem;
+	}
+
+	.navList {
+		flex-direction: column;
+		padding: 0;
+	}
+
+	li a {
+		font-size: 2.0em;
+		gap: 0;
+	}
+
+	#name-icon {
+		font-size: 3em;
+	}
+
+	.currentView {
+		opacity: 0;
+		background: transparent;
+	}
+
+	.subNav {
+		display: flex;
+		background-color: #3a5b82;
+	}
+
+	.subNav > p {
+		flex-direction: column;
+	}
 }

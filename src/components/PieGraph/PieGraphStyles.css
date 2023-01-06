@@ -1,13 +1,43 @@
 .pie-container {
     display: flex;
     flex-direction: column;
-    margin-left: 2.2em;
+    margin: 0 2.2em;
     padding: 0 1em;
-    width: 400px;
-    height: 500px;
+    width: 50vw;
+    height: 100%;
     background-color: #ffffff;
+    flex: 1 0 28%;
 }
 
 .pie-container > p {
     font-size: 2em;
 }
+
+
+@media screen and (max-width: 1760px){
+    .pie-container > p {
+        font-size: 1.9em;
+    }
+  }
+
+@media screen and (max-width: 1450px){
+    .pie-container {
+      width: 100vw;
+      margin: 0 2.2em;
+    }
+
+    .pie-container > p {
+        font-size: 1.6em;
+    }
+  }
+
+  @media screen and (max-width: 1400px){
+    .pie-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .pie-container > p {
+        font-size: 2.9em;
+    }
+  }

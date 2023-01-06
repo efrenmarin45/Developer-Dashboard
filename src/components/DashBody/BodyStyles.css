@@ -13,6 +13,7 @@
 }
 
 #title-box-bar {
+    display: flex;
     margin: 0 0 0 2.6em;
     width: 190px;
     height: 50px;
@@ -36,3 +37,14 @@ hr {
     margin: .5em 0 0 1.8em;
     padding-bottom: 1.5em;
 }
+
+@media screen and (max-width: 1400px){
+    .background{
+        width: 100%;
+        margin: 0;
+    }
+
+    .pie-container > p {
+        font-size: 2.9em;
+    }
+  }
