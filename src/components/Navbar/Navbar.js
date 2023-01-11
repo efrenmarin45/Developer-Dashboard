@@ -16,22 +16,22 @@ function Navbar() {
 				<ul className="navList">
 					<li id='name-icon'>#EfrenMarin</li>
 					<li>
-						<a href='./assets/EfrenMarin Resume.pdf' download="EfrenMarin_Resume">
+						<a href='EfrenMarin Resume.pdf' download="EfrenMarin_Resume">
 							RESUME
 						</a>
 					</li>
 					<li>
-						<a href='https://github.com/efrenmarin45' target='_blank'>
+						<a href='https://github.com/efrenmarin45' target='_blank' rel="noreferrer">
 							GITHUB
 						</a>
 					</li>
 					<li>
-						<a href='https://www.linkedin.com/in/efren-marin/' target='_blank'>
+						<a href='https://www.linkedin.com/in/efren-marin/' target='_blank' rel="noreferrer">
 							LINKEDIN
 						</a>
 					</li>
 					<li>
-						<a href='https://efren45marin.medium.com' target='_blank'>
+						<a href='https://efren45marin.medium.com' target='_blank' rel="noreferrer">
 							MEDIUM ARTICLES
 						</a>
 					</li>
