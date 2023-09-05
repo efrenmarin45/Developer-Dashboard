@@ -16,7 +16,7 @@ function Navbar() {
 					<ul className='navList'>
 						<li id='name-icon'>#EfrenMarin</li>
 						<li>
-							<a href='EfrenMarin Resume.pdf' download='EfrenMarin_Resume'>
+							<a href='/EfrenMarin Resume.pdf' download='EfrenMarin_Resume.pdf'>
 								RESUME
 							</a>
 						</li>
