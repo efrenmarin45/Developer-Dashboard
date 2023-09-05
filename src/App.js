@@ -10,7 +10,7 @@ const techData = [
 	{ label: "CSS", value: 20 },
 	{ label: "React", value: 15 },
 	{ label: "TypeScript", value: 10 },
-  { label: "SQL/NoSQL", value: 10}
+	{ label: "SQL/NoSQL", value: 10 },
 ];
 
 const valueData = [
@@ -18,13 +18,13 @@ const valueData = [
 	{ label: "Communicative", value: 100 },
 	{ label: "Resilient", value: 100 },
 	{ label: "Team Mentality", value: 100 },
-  { label: "Results Driven", value: 100 },
-  { label: "Mentor", value: 80},
-  { label: "Proactive", value: 100 }
+	{ label: "Results Driven", value: 100 },
+	{ label: "Mentor", value: 80 },
+	{ label: "Proactive", value: 100 },
 ];
 
 const goalsData = [
-  { label: "AWS", value: 60 },
+	{ label: "AWS", value: 60 },
 	{ label: "Legacy Code Refactor", value: 100 },
 	{ label: "Side Projects", value: 100 },
 	{ label: "My Dad Jokes", value: 40 },

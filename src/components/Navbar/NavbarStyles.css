@@ -97,7 +97,7 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
-} 
+}
 
 @media screen and (max-width: 1400px) {
 	header .nav-btn {
@@ -142,7 +142,7 @@ nav {
 	}
 
 	li a {
-		font-size: 2.0em;
+		font-size: 2em;
 		gap: 0;
 	}
 
