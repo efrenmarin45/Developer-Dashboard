@@ -9,6 +9,15 @@ function Navbar() {
 		navRef.current.classList.toggle("responsive-nav");
 	};
 
+	const downloadResume = () => {
+		const link = document.createElement("a");
+		link.href = 'EfrenMarin_Resume.pdf';
+		link.download = 'EfrenMarin_Resume.pdf';
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	};
+
 	return (
 		<>
 			<header>
@@ -16,7 +25,7 @@ function Navbar() {
 					<ul className='navList'>
 						<li id='name-icon'>#EfrenMarin</li>
 						<li>
-							<a href='/EfrenMarin_Resume.pdf'>
+							<a href='#' onClick={downloadResume}>
 								RESUME
 							</a>
 						</li>
